@@ -1,6 +1,6 @@
 <script setup>
 import { defineProps } from 'vue'
-import CountUp from './CountUp.vue' // Adjust path if needed
+import CountUp from './src/countup.vue' // Adjust path if needed
 
 const props = defineProps({
   endVal: {
